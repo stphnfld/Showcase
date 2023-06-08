@@ -17,7 +17,7 @@ def validate_request():
 
 def send_email():
     mail_content = '''Hello,
-    This is a simple mail. There is only text, no attachments are there The mail is sent using Python SMTP library.
+    This is a simple mail. There is only text, no attachments. The mail is sent using Python SMTP library.
     Thank You
     '''
     #Setup the MIME
